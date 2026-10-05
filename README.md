@@ -8,6 +8,7 @@ A small collection of scripts and troubleshooting guides for common IT support t
 |------|-------------|
 | `scripts/disk_space_report.sh` | Reports disk usage and flags volumes above a set threshold |
 | `guides/vpn-troubleshooting.md` | Step-by-step VPN fault diagnosis with escalation criteria |
+| `guides/user-offboarding-checklist.md` | Leaver checklist covering accounts, licences, data and equipment |
 
 ## Usage
 
@@ -19,7 +20,6 @@ A small collection of scripts and troubleshooting guides for common IT support t
 
 ## Planned additions
 
-- User offboarding checklist
 - Outlook profile reset guide
 - Printer troubleshooting guide
 
