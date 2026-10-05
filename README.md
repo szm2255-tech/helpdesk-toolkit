@@ -22,6 +22,12 @@ A small collection of scripts and troubleshooting guides for common IT support t
     ./scripts/disk_space_report.sh        # default warning at 80%
     ./scripts/disk_space_report.sh 70     # custom threshold
 
+### Network check (macOS)
+
+    chmod +x scripts/network_check.sh
+    ./scripts/network_check.sh              # checks github.com
+    ./scripts/network_check.sh example.com  # checks another host
+
 
 
 ## Author
