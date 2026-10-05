@@ -10,12 +10,12 @@ echo "Warning threshold: ${THRESHOLD}%"
 echo "----------------------------------------------"
 
 df -h | awk -v t="$THRESHOLD" 'NR==1 {print; next}
-  $1 ~ /^\/dev\// {
+  $1 ~ /^\/dev\// && $0 !~ / \/Volumes\// {
     use=$5; gsub("%","",use)
     flag = (use+0 >= t) ? "  <-- WARNING" : ""
     print $0 flag
   }'
 
 echo "----------------------------------------------"
-echo "Largest folders in your home directory:"
-du -sh ~/* 2>/dev/null | sort -rh | head -5
+echo "Size of common user folders:"
+du -sh ~/Downloads ~/Documents ~/Desktop 2>/dev/null | sort -rh
