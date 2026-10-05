@@ -9,6 +9,7 @@ A small collection of scripts and troubleshooting guides for common IT support t
 | `scripts/disk_space_report.sh` | Reports disk usage and flags volumes above a set threshold |
 | `guides/vpn-troubleshooting.md` | Step-by-step VPN fault diagnosis with escalation criteria |
 | `guides/user-offboarding-checklist.md` | Leaver checklist covering accounts, licences, data and equipment |
+| `guides/outlook-profile-reset.md` | Outlook fault diagnosis and profile rebuild steps |
 
 ## Usage
 
@@ -20,7 +21,6 @@ A small collection of scripts and troubleshooting guides for common IT support t
 
 ## Planned additions
 
-- Outlook profile reset guide
 - Printer troubleshooting guide
 
 ## Author
