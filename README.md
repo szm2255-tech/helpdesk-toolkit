@@ -10,6 +10,7 @@ A small collection of scripts and troubleshooting guides for common IT support t
 | `guides/vpn-troubleshooting.md` | Step-by-step VPN fault diagnosis with escalation criteria |
 | `guides/user-offboarding-checklist.md` | Leaver checklist covering accounts, licences, data and equipment |
 | `guides/outlook-profile-reset.md` | Outlook fault diagnosis and profile rebuild steps |
+| `guides/printer-troubleshooting.md` | Printer fault diagnosis from queue clears to driver reinstall |
 
 ## Usage
 
@@ -19,9 +20,7 @@ A small collection of scripts and troubleshooting guides for common IT support t
     ./scripts/disk_space_report.sh        # default warning at 80%
     ./scripts/disk_space_report.sh 70     # custom threshold
 
-## Planned additions
 
-- Printer troubleshooting guide
 
 ## Author
 
